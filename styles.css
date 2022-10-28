@@ -1,0 +1,91 @@
+/* This code is made by Kjærsti Løkholm Bergli.
+    My github can be found at: https:github.com/kj-develops */
+
+* {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #fff5ee8b;
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+    color: #fff5ee8b;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+li {
+    list-style: none;
+    padding: 7px;
+}
+
+.logo {
+    height: 50px;
+    margin: 10px;
+    flex-shrink: 2;
+}
+
+.listing {
+    display: inline-flex;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+}
+
+.hero {
+    display: flex;
+    width: 1200px;
+}
+
+.herotext {
+    align-content: center;
+    background-color: black;
+    position: absolute;
+    top: 350px;
+    left: center;
+    text-align: center;
+    width: 1200px;
+    margin: 40px;
+}
+
+#mainpic {
+    width: 1200px;
+    height: 700px;
+    margin: 40px;
+    position: relative;
+}
+
+.of_the_month_text {
+    text-align: center;
+}
+
+.of_the_month_images {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.smallimage {
+    width: 300px;
+    height: 200px;
+    margin: 15px 15px 0px 15px;
+}
+
+.small_img_text{
+    font-weight: bold;
+    text-align: center;
+    line-height: 10px;
+}

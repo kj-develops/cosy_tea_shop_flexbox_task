@@ -19,6 +19,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p,
 a {
     color: #fff5ee8b;
@@ -26,6 +27,7 @@ a {
 
 h2 {
     font-size: 30px;
+    padding: 0 0 5px 0;
 }
 
 li {
@@ -36,36 +38,31 @@ li {
 .logo {
     height: 50px;
     margin: 10px;
-    flex-shrink: 2;
 }
 
 .listing {
     display: inline-flex;
-    flex-shrink: 1;
-    flex-wrap: nowrap;
 }
 
 .hero {
     display: flex;
-    width: 1200px;
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto 60px auto;
+    padding: 0 5px 0 0;
 }
 
 .herotext {
-    align-content: center;
     background-color: black;
     position: absolute;
-    top: 350px;
-    left: center;
+    top: 40%;
     text-align: center;
-    width: 1200px;
-    margin: 40px;
+    left: 0;
+    right: 0;
 }
 
-#mainpic {
-    width: 1200px;
-    height: 700px;
-    margin: 40px;
-    position: relative;
+.backgroundimage {
+    width: 100%;
 }
 
 .of_the_month_text {
@@ -84,8 +81,50 @@ li {
     margin: 15px 15px 0px 15px;
 }
 
-.small_img_text{
+.small_img_text {
     font-weight: bold;
     text-align: center;
     line-height: 10px;
+}
+
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    min-height: 570px;
+    margin: 60px auto 0 auto;
+    background-image: url(graphics/img-locations-background.webp);
+}
+
+.location_header{
+    background: transparent;
+    text-align: center;
+    width: 100%;
+}
+
+.location_boxes{
+    display: inline-flex;
+}
+
+.location_item{
+    background-color: black;
+    text-align: center;
+    max-width: 300px;
+    height: auto;
+    line-height: 30px;
+    margin: 20px;
+}
+
+.contact{
+    text-align: center;
+    font-weight: bold;
+    min-height: 200px;
+    margin-top: 60px;
+}
+
+footer{
+    font-weight: bold;
+    margin: 20px;
 }
